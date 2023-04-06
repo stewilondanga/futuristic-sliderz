@@ -475,15 +475,17 @@ main>div.inner span:after {
   filter: saturate(200%);
 }
 
-/*@-webkit-keyframes reveal {
+@-webkit-keyframes reveal {
   from {
     transform: translateX(-50%) scaleY(0);
   }
+
   to {
     transform: translateX(-50%) scaleY(1);
   }
 }
-@keyframes reveal {
+
+/*@keyframes reveal {
   from {
     transform: translateX(-50%) scaleY(0);
   }
