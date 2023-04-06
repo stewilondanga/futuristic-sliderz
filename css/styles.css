@@ -495,7 +495,7 @@ main>div.inner span:after {
   }
 }
 
-/*main > div.inner span:before {
+main>div.inner span:before {
   content: "";
   display: block;
   position: absolute;
@@ -511,7 +511,8 @@ main>div.inner span:after {
   filter: blur(5px) saturate(200%) url(#turbulence);
   transform-origin: center left;
 }
-main > div.inner input {
+
+/*main > div.inner input {
   position: absolute;
   top: 0;
   left: 0;
