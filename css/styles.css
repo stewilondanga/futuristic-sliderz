@@ -241,7 +241,7 @@ body:after {
   pointer-events: none;
 }
 
-/*main {
+main {
   width: 500px;
   max-width: 100%;
   aspect-ratio: 1/1;
@@ -252,7 +252,8 @@ body:after {
   align-items: center;
   justify-content: center;
 }
-main *, main *:before, main *:after {
+
+/*main *, main *:before, main *:after {
   will-change: transform, filter, background;
 }
 main:after {
