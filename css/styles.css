@@ -443,7 +443,7 @@ main>div.inner .halo-inner:after {
   mix-blend-mode: overlay;
 }
 
-/*main > div.inner span {
+main>div.inner span {
   display: block;
   position: absolute;
   z-index: 1;
@@ -455,7 +455,8 @@ main>div.inner .halo-inner:after {
   transform: rotate(calc(var(--value) * 3.6 * 1deg));
   transform-origin: center center;
 }
-main > div.inner span:after {
+
+/*main > div.inner span:after {
   content: "";
   display: block;
   position: absolute;
