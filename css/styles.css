@@ -524,11 +524,12 @@ main>div.inner input {
   z-index: 10;
 }
 
-/*main > div.inner input:active {
+main>div.inner input:active {
   cursor: -webkit-grabbing;
   cursor: grabbing;
 }
-main > div.inner output {
+
+/*main > div.inner output {
   color: var(--glow-color);
   position: relative;
   font-variant-numeric: slashed-zero tabular-nums;
