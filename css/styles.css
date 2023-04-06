@@ -583,12 +583,12 @@ main>div.inner output:after {
   filter: brightness(500%);
 }
 
-/*.particle,
+.particle,
 .particle:after {
   background: transparent;
 }
 
-.particle:after {
+/*.particle:after {
   position: absolute;
   content: "";
   top: 100px;
