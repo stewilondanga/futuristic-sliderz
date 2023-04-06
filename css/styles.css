@@ -588,12 +588,13 @@ main>div.inner output:after {
   background: transparent;
 }
 
-/*.particle:after {
+.particle:after {
   position: absolute;
   content: "";
   top: 100px;
 }
 
+/*
 [class*=particle-] {
   border-radius: 10px;
   filter: blur(0.5px) saturate(200%) contrast(200%);
