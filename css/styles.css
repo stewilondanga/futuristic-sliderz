@@ -193,7 +193,6 @@ a {
   }
 }
 
-/*
 *,
 *:before,
 *:after {
@@ -202,7 +201,7 @@ a {
   -moz-osx-font-smoothing: grayscale;
 }
 
-html,
+/*html,
 body {
   width: 100%;
   height: 100%;
