@@ -165,8 +165,8 @@ a {
   line-height: 100%;
 }
 
-/*@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap");
-@layer properties {
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap");
+/*@layer properties {
   @property --value {
     syntax: "<number>";
     inherits: true;
