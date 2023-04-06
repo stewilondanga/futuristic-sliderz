@@ -456,7 +456,7 @@ main>div.inner span {
   transform-origin: center center;
 }
 
-/*main > div.inner span:after {
+main>div.inner span:after {
   content: "";
   display: block;
   position: absolute;
@@ -471,10 +471,11 @@ main>div.inner span {
   transform: translateX(-50%);
   transform-origin: center top;
   -webkit-animation: reveal 1s ease forwards;
-          animation: reveal 1s ease forwards;
+  animation: reveal 1s ease forwards;
   filter: saturate(200%);
 }
-@-webkit-keyframes reveal {
+
+/*@-webkit-keyframes reveal {
   from {
     transform: translateX(-50%) scaleY(0);
   }
