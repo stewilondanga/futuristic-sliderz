@@ -428,7 +428,7 @@ main>div.inner .halo-inner {
   overflow: hidden;
 }
 
-/*main > div.inner .halo-inner:after {
+main>div.inner .halo-inner:after {
   --current-opacity: opacity(calc(var(--value)*0.01));
   content: "";
   display: block;
@@ -438,11 +438,12 @@ main>div.inner .halo-inner {
   background: url(https://assets.codepen.io/64/toppng.com-water-texture-water-1500x1500.png);
   background-size: 80px;
   -webkit-mask-image: conic-gradient(from 0.5turn, transparent calc(100% - var(--value) * 1%), white calc(100% - var(--value) * 1%));
-          mask-image: conic-gradient(from 0.5turn, transparent calc(100% - var(--value) * 1%), white calc(100% - var(--value) * 1%));
+  mask-image: conic-gradient(from 0.5turn, transparent calc(100% - var(--value) * 1%), white calc(100% - var(--value) * 1%));
   filter: brightness(3400%) url(#turbulence) var(--current-opacity);
   mix-blend-mode: overlay;
 }
-main > div.inner span {
+
+/*main > div.inner span {
   display: block;
   position: absolute;
   z-index: 1;
