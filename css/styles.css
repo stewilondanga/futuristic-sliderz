@@ -382,7 +382,7 @@ main>div.inner .halo-outer:before {
   backdrop-filter: saturate(1.5);
 }
 
-/*main > div.inner .halo-outer:after {
+main>div.inner .halo-outer:after {
   content: "";
   display: block;
   position: absolute;
@@ -394,7 +394,8 @@ main>div.inner .halo-outer:before {
   z-index: 6;
   mix-blend-mode: soft-light;
 }
-main > div.inner .halo-outer canvas {
+
+/*main > div.inner .halo-outer canvas {
   position: absolute;
   width: 100% !important;
   height: 100% !important;
