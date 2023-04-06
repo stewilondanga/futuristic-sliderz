@@ -405,20 +405,16 @@ main>div.inner .halo-outer canvas {
   z-index: -1;
 }
 
-/*main > div.inner .halo-inner {
+main>div.inner .halo-inner {
   --glow-color-opacity: var(--value);
-  --glow-color: color-mix(
-    in lch,
-    color(
-      display-p3 var(--glow-color-p3) / calc(var(--glow-color-opacity) * 1%)
-    ),
-    white 20%
-  );
+  --glow-color: color-mix(in lch,
+      color(display-p3 var(--glow-color-p3) / calc(var(--glow-color-opacity) * 1%)),
+      white 20%);
   background: conic-gradient(from 0.5turn, transparent calc(100% - var(--value) * 1%), var(--glow-color) calc(100% - var(--value) * 1%));
   /* With all these transforms, I couldn't figure out a better
    * way to fade out the start of the gradient.
   */
-/*  -webkit-mask-image: conic-gradient(from 0.5turn, black, black, transparent);
+  /*  -webkit-mask-image: conic-gradient(from 0.5turn, black, black, transparent);
           mask-image: conic-gradient(from 0.5turn, black, black, transparent);
   position: absolute;
   width: 100%;
@@ -564,8 +560,8 @@ main > div.inner output:after {
 }
 
 /* Config */
-/* Pauls awesome mixin */
-/*.particles-wrapper {
+  /* Pauls awesome mixin */
+  /*.particles-wrapper {
   position: absolute;
   width: 110px;
   height: 110px;
