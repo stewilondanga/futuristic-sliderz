@@ -594,12 +594,12 @@ main>div.inner output:after {
   top: 100px;
 }
 
-/*
 [class*=particle-] {
   border-radius: 10px;
   filter: blur(0.5px) saturate(200%) contrast(200%);
 }
 
+/*
 .particle-1 {
   -webkit-animation: animParticle calc(20s / calc(var(--value)/10)) linear infinite;
           animation: animParticle calc(20s / calc(var(--value)/10)) linear infinite;
