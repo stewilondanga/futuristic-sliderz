@@ -547,15 +547,11 @@ main>div.inner output {
   text-shadow: 0 0 2px black;
 }
 
-/*main > div.inner output:after {
+main>div.inner output:after {
   --glow-color-luminance: 80;
-  --glow-color: color-mix(
-    in lch,
-    color(
-      display-p3 0.99 0.71 0.18 / calc(var(--glow-color-opacity) * 1%)
-    ),
-    white calc(var(--glow-color-luminance) * 1%)
-  );
+  --glow-color: color-mix(in lch,
+      color(display-p3 0.99 0.71 0.18 / calc(var(--glow-color-opacity) * 1%)),
+      white calc(var(--glow-color-luminance) * 1%));
   content: attr(data-value);
   position: absolute;
   top: 0;
@@ -564,15 +560,14 @@ main>div.inner output {
   opacity: 1;
   filter: blur(calc(var(--value)/10*1px)) saturate(5);
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   pointer-events: none;
   mix-blend-mode: plus-lighter;
 }
 
 /* Config */
-/* Pauls awesome mixin */
 /*.particles-wrapper {
   position: absolute;
   width: 110px;
