@@ -219,7 +219,7 @@ body {
   place-items: center;
 }
 
-/*body:before {
+body:before {
   content: "";
   display: block;
   position: absolute;
@@ -227,7 +227,8 @@ body {
   height: 100%;
   background: radial-gradient(circle at 50% 50%, transparent 50%, rgba(7, 8, 24, 0.6));
 }
-body:after {
+
+/*body:after {
   position: absolute;
   display: block;
   content: "";
