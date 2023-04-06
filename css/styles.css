@@ -322,7 +322,7 @@ main .outer-glow {
   transform: rotate(calc(var(--value) * 3.6 * 1deg));
 }
 
-/*main .outer-glow:after {
+main .outer-glow:after {
   content: "";
   display: block;
   position: absolute;
@@ -336,7 +336,8 @@ main .outer-glow {
   mix-blend-mode: plus-lighter;
   opacity: calc(var(--value) / 100);
 }
-main > div.inner {
+
+/*main > div.inner {
   width: 300px;
   aspect-ratio: 1/1;
   position: absolute;
