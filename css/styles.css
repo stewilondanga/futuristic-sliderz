@@ -182,20 +182,18 @@ a {
   --glow-color: oklch(82.6% 0.185 76.24 / calc(var(--glow-color-opacity) * 1%));
 }
 
-/*@supports (color: color(display-p3 0 0 0)) {
+@supports (color: color(display-p3 0 0 0)) {
   :root {
     --glow-color-opacity: 100;
     --glow-color-luminance: 10;
     --glow-color-p3: 0.99 0.71 0.18;
-    --glow-color: color-mix(
-      in lch,
-      color(
-        display-p3 var(--glow-color-p3) / calc(var(--glow-color-opacity) * 1%)
-      ),
-      white calc(var(--glow-color-luminance) * 1%)
-    );
+    --glow-color: color-mix(in lch,
+        color(display-p3 var(--glow-color-p3) / calc(var(--glow-color-opacity) * 1%)),
+        white calc(var(--glow-color-luminance) * 1%));
   }
 }
+
+/*
 *,
 *:before,
 *:after {
