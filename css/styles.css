@@ -485,15 +485,17 @@ main>div.inner span:after {
   }
 }
 
-/*@keyframes reveal {
+@keyframes reveal {
   from {
     transform: translateX(-50%) scaleY(0);
   }
+
   to {
     transform: translateX(-50%) scaleY(1);
   }
 }
-main > div.inner span:before {
+
+/*main > div.inner span:before {
   content: "";
   display: block;
   position: absolute;
