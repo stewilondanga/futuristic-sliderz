@@ -512,7 +512,7 @@ main>div.inner span:before {
   transform-origin: center left;
 }
 
-/*main > div.inner input {
+main>div.inner input {
   position: absolute;
   top: 0;
   left: 0;
@@ -523,7 +523,8 @@ main>div.inner span:before {
   cursor: grab;
   z-index: 10;
 }
-main > div.inner input:active {
+
+/*main > div.inner input:active {
   cursor: -webkit-grabbing;
   cursor: grabbing;
 }
