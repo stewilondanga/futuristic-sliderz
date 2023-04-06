@@ -274,7 +274,7 @@ main:after {
   bottom: 0;
 }
 
-/*main:before {
+main:before {
   content: "";
   display: block;
   position: absolute;
@@ -290,7 +290,8 @@ main:after {
   top: 0;
   bottom: 0;
 }
-main .circle-line {
+
+/*main .circle-line {
   --glow-color-opacity: calc(var(--value) / 2);
   --glow-color-luminance: 70;
   --glow-color: color-mix(
