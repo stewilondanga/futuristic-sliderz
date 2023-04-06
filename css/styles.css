@@ -362,16 +362,12 @@ main>div.inner .halo-outer {
   z-index: 5;
 }
 
-/*main > div.inner .halo-outer:before {
+main>div.inner .halo-outer:before {
   --glow-color-opacity: calc(var(--value) / 2);
   --glow-color-luminance: 10;
-  --glow-color: color-mix(
-    in lch,
-    color(
-      display-p3 var(--glow-color-p3) / calc(var(--glow-color-opacity) * 1%)
-    ),
-    white calc(var(--glow-color-luminance) * 1%)
-  );
+  --glow-color: color-mix(in lch,
+      color(display-p3 var(--glow-color-p3) / calc(var(--glow-color-opacity) * 1%)),
+      white calc(var(--glow-color-luminance) * 1%));
   content: "";
   display: block;
   position: absolute;
@@ -383,9 +379,10 @@ main>div.inner .halo-outer {
   background-image: radial-gradient(ellipse at 50% calc(210% + calc(var(--value)/2 * -1%)), var(--glow-color) 30%, transparent 40%), linear-gradient(to bottom right, rgba(255, 255, 255, 0.01) 45%, rgba(0, 0, 0, 0) 50%);
   z-index: 2;
   -webkit-backdrop-filter: saturate(1.5);
-          backdrop-filter: saturate(1.5);
+  backdrop-filter: saturate(1.5);
 }
-main > div.inner .halo-outer:after {
+
+/*main > div.inner .halo-outer:after {
   content: "";
   display: block;
   position: absolute;
