@@ -257,7 +257,7 @@ main *, main *:before, main *:after {
   will-change: transform, filter, background;
 }
 
-/*main:after {
+main:after {
   content: "";
   position: absolute;
   width: 80%;
@@ -273,7 +273,8 @@ main *, main *:before, main *:after {
   top: 0;
   bottom: 0;
 }
-main:before {
+
+/*main:before {
   content: "";
   display: block;
   position: absolute;
