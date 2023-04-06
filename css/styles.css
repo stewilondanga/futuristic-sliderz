@@ -641,17 +641,17 @@ main>div.inner output:after {
   width: 1px;
 }
 
-/*
 @-webkit-keyframes animParticle {
   from {
     transform: translateY(0px);
   }
+
   to {
     transform: translateY(-200px);
   }
 }
 
-@keyframes animParticle {
+/*@keyframes animParticle {
   from {
     transform: translateY(0px);
   }
