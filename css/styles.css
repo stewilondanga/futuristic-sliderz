@@ -253,10 +253,11 @@ main {
   justify-content: center;
 }
 
-/*main *, main *:before, main *:after {
+main *, main *:before, main *:after {
   will-change: transform, filter, background;
 }
-main:after {
+
+/*main:after {
   content: "";
   position: absolute;
   width: 80%;
