@@ -529,7 +529,7 @@ main>div.inner input:active {
   cursor: grabbing;
 }
 
-/*main > div.inner output {
+main>div.inner output {
   color: var(--glow-color);
   position: relative;
   font-variant-numeric: slashed-zero tabular-nums;
@@ -538,15 +538,16 @@ main>div.inner input:active {
   font-weight: 500;
   position: absolute;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   pointer-events: none;
   position: absolute;
   z-index: 10;
   text-shadow: 0 0 2px black;
 }
-main > div.inner output:after {
+
+/*main > div.inner output:after {
   --glow-color-luminance: 80;
   --glow-color: color-mix(
     in lch,
