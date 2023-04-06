@@ -312,7 +312,7 @@ main .circle-line {
   transform: rotateY(180deg);
 }
 
-/*main .outer-glow {
+main .outer-glow {
   position: absolute;
   top: 0;
   left: 0;
@@ -321,7 +321,8 @@ main .circle-line {
   margin: auto;
   transform: rotate(calc(var(--value) * 3.6 * 1deg));
 }
-main .outer-glow:after {
+
+/*main .outer-glow:after {
   content: "";
   display: block;
   position: absolute;
