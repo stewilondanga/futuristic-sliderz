@@ -651,14 +651,16 @@ main>div.inner output:after {
   }
 }
 
-/*@keyframes animParticle {
+@keyframes animParticle {
   from {
     transform: translateY(0px);
   }
+
   to {
     transform: translateY(-200px);
   }
 }
-svg {
+
+/*svg {
   position: absolute;
 }
