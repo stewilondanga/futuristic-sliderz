@@ -395,7 +395,7 @@ main>div.inner .halo-outer:after {
   mix-blend-mode: soft-light;
 }
 
-/*main > div.inner .halo-outer canvas {
+main>div.inner .halo-outer canvas {
   position: absolute;
   width: 100% !important;
   height: 100% !important;
@@ -404,7 +404,8 @@ main>div.inner .halo-outer:after {
   pointer-events: none;
   z-index: -1;
 }
-main > div.inner .halo-inner {
+
+/*main > div.inner .halo-inner {
   --glow-color-opacity: var(--value);
   --glow-color: color-mix(
     in lch,
