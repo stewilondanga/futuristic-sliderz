@@ -291,14 +291,12 @@ main:before {
   bottom: 0;
 }
 
-/*main .circle-line {
+main .circle-line {
   --glow-color-opacity: calc(var(--value) / 2);
   --glow-color-luminance: 70;
-  --glow-color: color-mix(
-    in lch,
-    color(display-p3 0.99 0.71 0.18 / calc(var(--glow-color-opacity) * 1%)),
-    white calc(var(--glow-color-luminance) * 1%)
-  );
+  --glow-color: color-mix(in lch,
+      color(display-p3 0.99 0.71 0.18 / calc(var(--glow-color-opacity) * 1%)),
+      white calc(var(--glow-color-luminance) * 1%));
   position: absolute;
   width: 80.5%;
   height: 80.5%;
@@ -309,11 +307,12 @@ main:before {
   margin: auto;
   background: conic-gradient(from 0.5turn, transparent calc(100% - var(--value) * 1%), var(--glow-color) calc(100% - calc(var(--value) * 1%)));
   -webkit-mask-image: conic-gradient(from 0.5turn, black, black, transparent);
-          mask-image: conic-gradient(from 0.5turn, black, black, transparent);
+  mask-image: conic-gradient(from 0.5turn, black, black, transparent);
   border-radius: 100000px;
   transform: rotateY(180deg);
 }
-main .outer-glow {
+
+/*main .outer-glow {
   position: absolute;
   top: 0;
   left: 0;
