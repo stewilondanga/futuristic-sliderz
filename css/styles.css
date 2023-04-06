@@ -568,7 +568,7 @@ main>div.inner output:after {
 }
 
 /* Config */
-/*.particles-wrapper {
+.particles-wrapper {
   position: absolute;
   width: 110px;
   height: 110px;
@@ -578,12 +578,12 @@ main>div.inner output:after {
   transform: rotate(90deg);
   trasnform-origin: center center;
   -webkit-mask-image: radial-gradient(circle, #000, transparent 70%);
-          mask-image: radial-gradient(circle, #000, transparent 70%);
+  mask-image: radial-gradient(circle, #000, transparent 70%);
   opacity: calc(var(--value)/10);
   filter: brightness(500%);
 }
 
-.particle,
+/*.particle,
 .particle:after {
   background: transparent;
 }
