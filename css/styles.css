@@ -661,6 +661,6 @@ main>div.inner output:after {
   }
 }
 
-/*svg {
+.particle svg {
   position: absolute;
 }
