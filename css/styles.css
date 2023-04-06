@@ -352,7 +352,7 @@ main>div.inner {
   justify-content: center;
 }
 
-/*main > div.inner .halo-outer {
+main>div.inner .halo-outer {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -361,7 +361,8 @@ main>div.inner {
   transform: scale(1.66) rotateY(180deg);
   z-index: 5;
 }
-main > div.inner .halo-outer:before {
+
+/*main > div.inner .halo-outer:before {
   --glow-color-opacity: calc(var(--value) / 2);
   --glow-color-luminance: 10;
   --glow-color: color-mix(
